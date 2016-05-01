@@ -1,0 +1,49 @@
+@font-face {
+    font-family: customfont;
+    src: url("../fonts/major_force/majorforce.ttf");
+}
+
+body { 
+  background-image: url("../images/coolBackground.png");
+  background-size: stretch;
+  font-family: customfont;
+  color: ffbf80;
+  text-align: center;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+li{
+	font-size: 3em;
+}
+
+p{
+	font-size: 5em;
+}
+
+ul .nav{
+	color: #222;
+}
+
+span#brandname{
+	color: black;
+	font-size: 2.5em;
+	position: inline-block;
+	margin-right: 2em;
+}
+
+span#navlist{
+	color: #222;
+}
+
+.navbar-inverse {
+    background: transparent;
+    margin-bottom: 10em;
+}
+
+.collapse{
+	margin-top: 2em;
+}
+
