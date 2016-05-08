@@ -4,10 +4,11 @@
 }
 
 body { 
-  background-image: url("../images/coolBackground.png");
+  display: none;
+  background: url("../images/coolbackground.png");
   background-size: stretch;
   font-family: customfont;
-  color: ffbf80;
+  color: white;
   text-align: center;
 }
 img{
@@ -23,27 +24,73 @@ p{
 	font-size: 5em;
 }
 
-ul .nav{
-	color: #222;
-}
-
 span#brandname{
-	color: black;
+	color: white;
 	font-size: 2.5em;
 	position: inline-block;
 	margin-right: 2em;
 }
 
-span#navlist{
-	color: #222;
+
+span#currentpage{
+	color: white;
 }
 
-.navbar-inverse {
-    background: transparent;
-    margin-bottom: 10em;
+span#navlist{
+	color: orange;
 }
 
 .collapse{
 	margin-top: 2em;
+}
+.navbar-inverse {
+    background: none;
+    margin-bottom: 10em;
+}
+
+.navtext:hover{
+	opacity: 0.5;
+}
+
+.hometext{
+	display: none;
+}
+
+.panel{
+	display: none;
+}
+
+.panel-body{
+	background: black;
+}
+
+.panelpicture{
+	border: 2px solid orange;
+	height: 200px;
+	width: 100%;
+	margin-bottom: 1em;
+}
+.paneltext{
+	font-family: times;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+#pagetext{
+	font-size: 5em;
+	text-align: center;
+}
+
+#contact{
+	font-family: times;
+	font-size: 1em;
+	position: relative;
+	margin-top: 2em;
+	float: bottom;
+}
+
+.panelpicture:hover{
+	opacity: 0.5;
 }
 
