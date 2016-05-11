@@ -46,7 +46,7 @@
             <ul class="nav navbar-nav">
               <li>
                 <a href="index.html"><span class="navtext" id=
-                "currentpage">Home</span></a>
+                "navlist">Home</span></a>
               </li>
 
 
@@ -65,7 +65,7 @@
 
               <li>
                 <a href="about.html"><span class="navtext" id=
-                "navlist">About</span></a>
+                "currentpage">About</span></a>
               </li>
             </ul>
           </div>
@@ -77,73 +77,50 @@
   </header>
 
 
-  <div id='tofade'>
-    <div class="container">
-      <div class="row-centered">
-        <div class="col-xs-12 col-md-12 col-lg-12 col-centered">
-          <p class="hometext" id="pagetext">Moatsart Studios</p>
-        </div>
-      </div>
+  <div class="row-centered" id="pageinfo">
+    <div class="col-xs-12 col-md-6 col-lg-6 col-centered">
+      <article>
+        <header id="aboutmeheader">
+          Who am I?
+        </header>
 
 
-      <div class="row-centered">
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel1">
-            <div class="panel-heading">
-              <h3 class="panel-title">Current Project</h3>
-            </div>
+        <p class="aboutmetext">&nbsp;&nbsp;&nbsp;&nbspAllow me to introduce
+        myself. I am Kevin Moats, a soon-to-be-husband, gamer, nerd, and what
+        you are probably interested in, aspiring software developer.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspLets not rush things though. I have lived in
+        Indiana most of my life with my family. There I met my best friend
+        David. We love hanging out and playing games together whenever it's
+        possible. Not only did I meet my best friend here, but I met my lovely
+        fiance, Erin. I am excited to start our life together out in the scary,
+        real world. The horror stories from my parents and others already have
+        me excited to begin.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspFinally, what I do for a living is I manage a
+        local fast food joint called Wendy's. You probably have heard of it, if
+        not, do you live in the U.S? Probably not. Anyway, it is my dream to
+        become a full time software developer. What could I possibly have to
+        offer your company you may ask? Well that is all detalied in my
+        portfolio tab where you can even check out some of my work.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspI just need to get my foot into the industry so
+        I can dedicate 40 more hours of my life a week to programming instead
+        of fast food. I know that I will eventually become a great developer,
+        it is just a matter of time right now. I will take about any position
+        in software development, whether that be an actual developer, junior
+        developer, QA engineer, you name it. I just want to get to working with
+        technology as soon as I can. I'm interested in any position as a
+        C#/.net or front end developer.<br>
+        <br>
+        If you're interested at all, feel free to shoot me an email at:
+        kevinmoatsartonline@gmail.com</p>
+      </article>
+    </div>
 
 
-            <div class="panel-body">
-              <a href="portfolio.html"><img alt="myfirstgame" class=
-              "panelpicture" src="images/abandoned_0.png"></a>
-
-              <p class="paneltext">My current project is currently this
-              website. In this project I hope to perfect my HTML and CSS
-              skills, and get a good grasp of Javascript/Jquery.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel2">
-            <div class="panel-heading">
-              <h3 class="panel-title">My Skills</h3>
-            </div>
-
-
-            <div class="panel-body">
-              <a href="portfolio.html"><img alt="coding" class="panelpicture"
-              src="images/coding.png"></a>
-
-              <p class="paneltext">I am extremely good with technology. My most
-              prominent languages are C#, HTML, CSS and Javascript. I am also
-              PC Pro certified to work and mantain computers.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel3">
-            <div class="panel-heading">
-              <h3 class="panel-title">My life</h3>
-            </div>
-
-
-            <div class="panel-body">
-              <a href="about.html"><img alt="me" class="panelpicture" src=
-              "images/me.jpg"></a>
-
-              <p class="paneltext">Most of my time is spent programming,
-              working, and going to school. However, in my free time I love
-              spending time with my fiance. I also like to play games with my
-              bub David.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="col-xs-12 col-md-6 col-lg-6 col-centered"><img alt="mewithwife"
+    id="aboutmepic" src="images/me2.jpg">
     </div>
   </div>
 
@@ -156,10 +133,8 @@
   <script>
   $(document).ready(function(){
     $(document.body).fadeIn(3000);
-    $('#pagetext').slideToggle(3000);
-    $('#panel1').slideToggle(3000);
-    $('#panel2').slideToggle(3000);
-    $('#panel3').slideToggle(3000);
+    $('#pageinfo').slideToggle(1);
+    $('#pageinfo').slideToggle(3000);
 
   });
   </script> <!-- Latest compiled and minified JavaScript -->

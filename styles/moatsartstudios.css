@@ -1,96 +1,122 @@
 @font-face {
-    font-family: customfont;
-    src: url("../fonts/major_force/majorforce.ttf");
+  font-family: coolfont;
+  src: url(../fonts/major_force/majorforce.ttf);
 }
 
-body { 
+body {
   display: none;
-  background: url("../images/coolbackground.png");
+  background: url(../images/indexsidepic.png);
   background-size: stretch;
-  font-family: customfont;
-  color: white;
+  font-family: coolfont;
+  color: #fff;
   text-align: center;
 }
-img{
-	width: 100%;
-	height: 100%;
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
-li{
-	font-size: 3em;
+li {
+  font-size: 3em;
 }
 
-p{
-	font-size: 5em;
+p {
+  font-size: 5em;
 }
 
-span#brandname{
-	color: white;
-	font-size: 2.5em;
-	position: inline-block;
-	margin-right: 2em;
+span#brandname {
+  color: #fff;
+  font-size: 2.5em;
+  position: inline-block;
+  margin-right: 2em;
+}
+
+span#currentpage {
+  color: #fff;
+}
+
+span#navlist {
+  color: green;
+}
+
+.aboutmetext {
+  background: #000;
+  border: solid green 2px;
+  font-family: times;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.collapse {
+  margin-top: 2em;
 }
 
 
-span#currentpage{
-	color: white;
+.hometext {
+  display: none;
 }
 
-span#navlist{
-	color: orange;
-}
-
-.collapse{
-	margin-top: 2em;
-}
 .navbar-inverse {
-    background: none;
-    margin-bottom: 10em;
+  background: none;
+  margin-bottom: 10em;
 }
 
-.navtext:hover{
-	opacity: 0.5;
+.panel {
+  display: none;
 }
 
-.hometext{
-	display: none;
+.panel-body {
+  background: #000;
 }
 
-.panel{
-	display: none;
+.panelpicture {
+  border: 2px solid green;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
-.panel-body{
-	background: black;
+.paneltext {
+  font-family: times;
+  font-size: 1em;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
 }
 
-.panelpicture{
-	border: 2px solid orange;
-	height: 200px;
-	width: 100%;
-	margin-bottom: 1em;
-}
-.paneltext{
-	font-family: times;
-	font-size: 1em;
-	font-weight: bold;
-	color: white;
-	text-align: left;
-}
-#pagetext{
-	font-size: 5em;
-	text-align: center;
+#aboutmeheader {
+  background: #000;
+  border: solid green 2px;
+  color: green;
+  font-size: 3em;
 }
 
-#contact{
-	font-family: times;
-	font-size: 1em;
-	position: relative;
-	margin-top: 2em;
-	float: bottom;
+#aboutmepic {
+  border: solid green 2px;
+  min-width: 150px;
+  min-height: 100px;
+  max-width: 650px;
+  max-height: 700px;
 }
 
-.panelpicture:hover{
-	opacity: 0.5;
+#contact {
+  font-family: times;
+  font-size: 1em;
+  position: relative;
+  margin-top: 2em;
+  float: bottom;
 }
 
+#pagetext {
+  font-size: 5em;
+  text-align: center;
+}
+
+.navtext:hover {
+  opacity: .5;
+}
+
+.panelpicture:hover {
+  opacity: .5;
+}
