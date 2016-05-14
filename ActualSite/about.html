@@ -18,7 +18,9 @@
   </script>
   <link href="styles/moatsartstudios.css" rel="stylesheet" type="text/css">
 
+  <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
   <title>
+  Kevin Moatsart- About
   </title>
 </head>
 
@@ -59,13 +61,13 @@
 
               <li>
                 <a href="hobbies.html"><span class="navtext" id=
-                "currentpage">Hobbies</span></a>
+                "navlist">Hobbies</span></a>
               </li>
 
 
               <li>
                 <a href="about.html"><span class="navtext" id=
-                "navlist">About</span></a>
+                "currentpage">About</span></a>
               </li>
             </ul>
           </div>
@@ -77,78 +79,50 @@
   </header>
 
 
-  <div id='tofade'>
-    <div class="container">
-      <div class="row-centered">
-        <div class="col-xs-12 col-md-12 col-lg-12 col-centered">
-          <p class="hometext" id="pagetext">Hobbies</p>
-        </div>
-      </div>
+  <div class="row-centered" id="pageinfo">
+    <div class="col-xs-12 col-md-6 col-lg-6 col-centered">
+      <article>
+        <header id="aboutmeheader">
+          Who am I?
+        </header>
 
 
-      <div class="row-centered">
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel1">
-            <div class="panel-heading">
-              <h3 class="panel-title">Programming</h3>
-            </div>
+        <p class="aboutmetext">&nbsp;&nbsp;&nbsp;&nbspAllow me to introduce
+        myself. I am Kevin Moats, a soon-to-be-husband, gamer, nerd, and what
+        you are probably interested in, aspiring software developer.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspLets not rush things though. I have lived in
+        Indiana most of my life with my family. There I met my best friend
+        David. We love hanging out and playing games together whenever it's
+        possible. Not only did I meet my best friend here, but I met my lovely
+        fiance, Erin. I am excited to start our life together out in the scary,
+        real world. The horror stories from my parents and others already have
+        me excited to begin.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspFinally, what I do for a living is I manage a
+        local fast food joint called Wendy's. You probably have heard of it, if
+        not, do you live in the U.S? Probably not. Anyway, it is my dream to
+        become a full time software developer. What could I possibly have to
+        offer your company you may ask? Well that is all detalied in my
+        portfolio tab where you can even check out some of my work.<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbspI just need to get my foot into the industry so
+        I can dedicate 40 more hours of my life a week to programming instead
+        of fast food. I know that I will eventually become a great developer,
+        it is just a matter of time right now. I will take about any position
+        in software development, whether that be an actual developer, junior
+        developer, QA engineer, you name it. I just want to get to working with
+        technology as soon as I can. I'm interested in any position as a
+        C#/.net or front end developer.<br>
+        <br>
+        If you're interested at all, feel free to shoot me an email at:
+        kevinmoatsartonline@gmail.com</p>
+      </article>
+    </div>
 
 
-            <div class="panel-body">
-              <img alt="coding" class="panelpicture" src="images/coding2.jpg">
-
-              <p class="paneltext">You can probably guess at this point that I
-              love to program. I started in the smmer of 2014 with C# and have
-              been programming ever since. I love to learn about it and I am
-              going to become a very advanced and smart software developer.
-              Basically everything I know about programming, I taught
-              myself.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel2">
-            <div class="panel-heading">
-              <h3 class="panel-title">Video Games</h3>
-            </div>
-
-
-            <div class="panel-body">
-              <img alt="darksouls" class="panelpicture" src=
-              "images/darksoulsimage.jpg">
-
-              <p class="paneltext">What goes hand in hand with programming?
-              Probably someone who loves video games. Not only do I play them,
-              But I created a couple of them myself! My favorite video games
-              are the Xcom series, Counter Strike: Global Offensive, Dark
-              Souls, and the Metroid Prime series.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
-          <div class="panel panel-success panel-primary" id="panel3">
-            <div class="panel-heading">
-              <h3 class="panel-title">Reading</h3>
-            </div>
-
-
-            <div class="panel-body">
-              <img alt="phpbook" class="panelpicture" src="images/mybook.jpeg">
-
-              <p class="paneltext">I do not really like reading fiction books.
-              What I like are interesting stories about real things. Most of
-              the books I read now are programming books or marriage books. On
-              my desk right now is a book on SQL Oracle and another on
-              Javascript. I love going through the books because it is so much
-              easier to learn from them.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="col-xs-12 col-md-6 col-lg-6 col-centered"><img alt="mewithwife"
+    id="aboutmepic" src="images/me2.jpg">
     </div>
   </div>
 
@@ -161,10 +135,8 @@
   <script>
   $(document).ready(function(){
     $(document.body).fadeIn(3000);
-    $('#pagetext').slideToggle(3000);
-    $('#panel1').slideToggle(3000);
-    $('#panel2').slideToggle(3000);
-    $('#panel3').slideToggle(3000);
+    $('#pageinfo').slideToggle(1);
+    $('#pageinfo').slideToggle(3000);
 
   });
   </script> <!-- Latest compiled and minified JavaScript -->

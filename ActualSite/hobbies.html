@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  integrity=
+  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  rel="stylesheet"><!-- Optional theme -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+  integrity=
+  "sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+  rel="stylesheet">
+  <script src="scripts/mainscript.js">
+  </script>
+  <link href="styles/moatsartstudios.css" rel="stylesheet" type="text/css">
+
+  <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
+  <title>
+  Kevin Moatsart- Hobbies
+  </title>
+</head>
+
+<body>
+  <header class="navbar-inverse">
+    <div class="container">
+      <nav class="navbar-full">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+
+
+          <div class="navbar-header">
+            <button aria-expanded="false" class="navbar-toggle collapsed"
+            data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+            type="button"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button> <a class="navbar-brand"
+            href="index.html"><span id="brandname">Moatsart Studios</span></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+          <div class="collapse navbar-collapse" id=
+          "bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html"><span class="navtext" id=
+                "navlist">Home</span></a>
+              </li>
+
+
+              <li>
+                <a href="portfolio.html"><span class="navtext" id=
+                "navlist">Portfolio</span> <span class=
+                "sr-only">(current)</span></a>
+              </li>
+
+
+              <li>
+                <a href="hobbies.html"><span class="navtext" id=
+                "currentpage">Hobbies</span></a>
+              </li>
+
+
+              <li>
+                <a href="about.html"><span class="navtext" id=
+                "navlist">About</span></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </div>
+  </header>
+
+
+  <div id='tofade'>
+    <div class="container">
+      <div class="row-centered">
+        <div class="col-xs-12 col-md-12 col-lg-12 col-centered">
+          <p class="hometext" id="pagetext">Hobbies</p>
+        </div>
+      </div>
+
+
+      <div class="row-centered">
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel1">
+            <div class="panel-heading">
+              <h3 class="panel-title">Programming</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <img alt="coding" class="panelpicture" src="images/coding2.jpg">
+
+              <p class="paneltext">You can probably guess at this point that I
+              love to program. I started in the smmer of 2014 with C# and have
+              been programming ever since. I love to learn about it and I am
+              going to become a very advanced and smart software developer.
+              Basically everything I know about programming, I taught
+              myself.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel2">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video Games</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <img alt="darksouls" class="panelpicture" src=
+              "images/darksoulsimage.jpg">
+
+              <p class="paneltext">What goes hand in hand with programming?
+              Probably someone who loves video games. Not only do I play them,
+              But I created a couple of them myself! My favorite video games
+              are the Xcom series, Counter Strike: Global Offensive, Dark
+              Souls, and the Metroid Prime series.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel3">
+            <div class="panel-heading">
+              <h3 class="panel-title">Reading</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <img alt="phpbook" class="panelpicture" src="images/mybook.jpeg">
+
+              <p class="paneltext">I do not really like reading fiction books.
+              What I like are interesting stories about real things. Most of
+              the books I read now are programming books or marriage books. On
+              my desk right now is a book on SQL Oracle and another on
+              Javascript. I love going through the books because it is so much
+              easier to learn from them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <p id="contact">kevinmoatsartonline@gmail.com</p>
+  <!--jquery -->
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+  </script> 
+  <script>
+  $(document).ready(function(){
+    $(document.body).fadeIn(3000);
+    $('#pagetext').slideToggle(3000);
+    $('#panel1').slideToggle(3000);
+    $('#panel2').slideToggle(3000);
+    $('#panel3').slideToggle(3000);
+
+  });
+  </script> <!-- Latest compiled and minified JavaScript -->
+   
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script> <!-- Latest compiled and minified JavaScript -->
+   
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script>
+</body>
+</html>
