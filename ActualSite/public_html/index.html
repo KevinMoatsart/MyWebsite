@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  integrity=
+  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  rel="stylesheet"><!-- Optional theme -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+  integrity=
+  "sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+  rel="stylesheet">
+  <script src="scripts/mainscript.js">
+  </script>
+  <link href="styles/moatsartstudios.css" rel="stylesheet" type="text/css">
+
+  <title>
+  </title>
+</head>
+
+<body>
+  <header class="navbar-inverse">
+    <div class="container">
+      <nav class="navbar-full">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+
+
+          <div class="navbar-header">
+            <button aria-expanded="false" class="navbar-toggle collapsed"
+            data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+            type="button"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button> <a class="navbar-brand"
+            href="index.html"><span id="brandname">Moatsart Studios</span></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+          <div class="collapse navbar-collapse" id=
+          "bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html"><span class="navtext" id=
+                "currentpage">Home</span></a>
+              </li>
+
+
+              <li>
+                <a href="portfolio.html"><span class="navtext" id=
+                "navlist">Portfolio</span> <span class=
+                "sr-only">(current)</span></a>
+              </li>
+
+
+              <li>
+                <a href="hobbies.html"><span class="navtext" id=
+                "navlist">Hobbies</span></a>
+              </li>
+
+
+              <li>
+                <a href="about.html"><span class="navtext" id=
+                "navlist">About</span></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </div>
+  </header>
+
+
+  <div id='tofade'>
+    <div class="container">
+      <div class="row-centered">
+        <div class="col-xs-12 col-md-12 col-lg-12 col-centered">
+          <p class="hometext" id="pagetext">Moatsart Studios</p>
+        </div>
+      </div>
+
+
+      <div class="row-centered">
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel1">
+            <div class="panel-heading">
+              <h3 class="panel-title">Current Project</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <a href="portfolio.html"><img alt="myfirstgame" class=
+              "panelpicture" src="images/abandoned_0.png"></a>
+
+              <p class="paneltext">My current project is currently this
+              website. In this project I hope to perfect my HTML and CSS
+              skills, and get a good grasp of Javascript/Jquery.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel2">
+            <div class="panel-heading">
+              <h3 class="panel-title">My Skills</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <a href="portfolio.html"><img alt="coding" class="panelpicture"
+              src="images/coding.png"></a>
+
+              <p class="paneltext">I am extremely good with technology. My most
+              prominent languages are C#, HTML, CSS and Javascript. I am also
+              PC Pro certified to work and mantain computers.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-md-4 col-lg-4 col-centered">
+          <div class="panel panel-success panel-primary" id="panel3">
+            <div class="panel-heading">
+              <h3 class="panel-title">My life</h3>
+            </div>
+
+
+            <div class="panel-body">
+              <a href="about.html"><img alt="me" class="panelpicture" src=
+              "images/me.jpg"></a>
+
+              <p class="paneltext">Most of my time is spent programming,
+              working, and going to school. However, in my free time I love
+              spending time with my fiance. I also like to play games with my
+              bub David.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <p id="contact">kevinmoatsartonline@gmail.com</p>
+  <!--jquery -->
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+  </script> 
+  <script>
+  $(document).ready(function(){
+    $(document.body).fadeIn(3000);
+    $('#pagetext').slideToggle(3000);
+    $('#panel1').slideToggle(3000);
+    $('#panel2').slideToggle(3000);
+    $('#panel3').slideToggle(3000);
+
+  });
+  </script> <!-- Latest compiled and minified JavaScript -->
+   
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script> <!-- Latest compiled and minified JavaScript -->
+   
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script>
+</body>
+</html>
